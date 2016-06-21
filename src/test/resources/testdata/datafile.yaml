@@ -1,0 +1,9 @@
+--- !!com.mycompany.myproject.sample.simple.SimpleData
+employeeId: 1
+employeeName: "John"
+--- !!com.mycompany.myproject.sample.simple.SimpleData
+employeeId: 2
+employeeName: "Jane"
+--- !!com.mycompany.myproject.sample.simple.SimpleData
+employeeId: 3
+employeeName: "Drake"

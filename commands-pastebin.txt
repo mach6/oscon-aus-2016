@@ -1,0 +1,11 @@
+
+
+mvn test -Dtest=DemoWebTest -DSELION_SELENIUM_HOST=192.168.99.100
+
+mvn test -Dtest=DemoMobileTest -DSELION_SELENIUM_HOST=localhost -DSELION_SELENIUM_PORT=5558 -DSELION_MOBILE_NODE_TYPE=appium
+
+mvn test -Dtest=UIFlowUsingSeLionPageObjectsTest -DSELION_GUI_DATA_DIR=pageyaml -DSELION_SELENIUM_RUN_LOCALLY=true -Dlocale=US
+
+mvn test -Dtest=DemoYamlDataProviderTest
+
+mvn test -Dtest=SoftAssertionsTest
