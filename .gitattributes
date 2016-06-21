@@ -16,4 +16,4 @@
 # The below type of files are specific to unit tests in the server module
 *.zip binary
 *.tar.bz2 binary
-*.pptx binart
+*.pptx binary
